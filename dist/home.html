@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220103192231">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<picture><source srcset="img/logo.webp"type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#hero" data-goto="#hero" class="menu__link _active">Главная</a></li>
+							<li class="menu__item"><a href="#orders" data-goto="#orders" class="menu__link">Каталог товаров</a></li>
+							<li class="menu__item"><a href="#reviews" data-goto="#reviews" class="menu__link">Отзывы</a></li>
+							<li class="menu__item"><a href="#contacts" data-goto="#contacts" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero" id="hero">
+				<div class="hero__container">
+					<div class="hero__data">
+						<h1 class="hero__title">Торты на день рождения <br> или юбилей <br> </h1>
+						<span class="hero__subtitle">От минималистичных до многоярусных</span>
+						<button class="hero__btn">Подобрать торт</button>
+					</div>
+				</div>
+			</section>
+			<section class="services" id="services">
+				<div class="services__container">
+					<ul class="services__list">
+						<li class="services__item">
+							<picture><source srcset="img/services-1.webp"type="image/webp"><img src="img/services-1.png" alt="image"></picture>
+							<h2 class="services__item-title">Торты</h2>
+							<p class="services__item-text">Стоимость цельного торта без декоративных украшений.</p>
+						</li>
+						<li class="services__item">
+							<picture><source srcset="img/services-2.webp"type="image/webp"><img src="img/services-2.png" alt="image"></picture>
+							<h2 class="services__item-title">Выпечка</h2>
+							<p class="services__item-text">Фигурки людей, животных, еды, предметов, печать фотографии.
+							</p>
+						</li>
+						<li class="services__item">
+							<picture><source srcset="img/services-3.webp"type="image/webp"><img src="img/services-3.png" alt="image"></picture>
+							<h2 class="services__item-title">Украшения</h2>
+							<p class="services__item-text">Декоративные украшения, цветы, вензеля, узоры, текстуры.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="orders" id="orders">
+				<div class="orders__container">
+					<div class="orders__inner">
+						<div class="orders__intro">
+							<picture><source srcset="img/cake.webp"type="image/webp"><img src="img/cake.png" alt="image"></picture>
+							<h2 class="orders__title _section-title">Торты на заказ</h2>
+						</div>
+						<div data-tabs data-tabs-animate data-tabs-animate="1000" class="orders__items">
+							<nav data-tabs-titles class="orders__buttons">
+								<button type="submit" class="orders__button _tab-active">Все</button>
+								<button type="submit" class="orders__button">Детские</button>
+								<button type="submit" class="orders__button">Свадебные</button>
+								<button type="submit" class="orders__button">Новогодние</button>
+								<button type="submit" class="orders__button">Праздничные</button>
+							</nav>
+							<div data-tabs-body class="tabs__contents">
+								<div class="tabs__body">
+									<ul class="orders__list" data-gallery>
+										<li class="orders__item" data-src="img/orders-1.jpg">
+											<picture><source srcset="img/orders-1.webp"type="image/webp"><img src="img/orders-1.jpg" id="orders-1" alt="image"></picture>
+											<div class="orders__item-data">
+												<h3 class="orders__item-title">Торт Брауни</h3>
+												<p class="orders__item-descr">
+													Сдержанный, но в то же время очень нежный трехуровневый свадебный
+													торт в
+													цвете
+													айвори.
+												</p>
+												<div class="orders__buy">
+													<span class="orders__price">2150 руб.</span>
+													<button class="orders__buy-btn">Заказать</button>
+												</div>
+											</div>
+										</li>
+										<li class="orders__item" data-src="img/orders-2.jpg">
+											<picture><source srcset="img/orders-2.webp"type="image/webp"><img src="img/orders-2.jpg" id="orders-2" alt="image"></picture>
+											<div class="orders__item-data">
+												<h3 class="orders__item-title">Торт Брауни</h3>
+												<p class="orders__item-descr">
+													Сдержанный, но в то же время очень нежный трехуровневый свадебный
+													торт в
+													цвете
+													айвори.
+												</p>
+												<div class="orders__buy">
+													<span class="orders__price">2150 руб.</span>
+													<button class="orders__buy-btn">Заказать</button>
+												</div>
+											</div>
+										</li>
+										<li class="orders__item" data-src="img/orders-2.jpg">
+											<picture><source srcset="img/orders-2.webp"type="image/webp"><img src="img/orders-2.jpg" alt="image"></picture>
+											<div class="orders__item-data">
+												<h3 class="orders__item-title">Торт Брауни</h3>
+												<p class="orders__item-descr">
+													Сдержанный, но в то же время очень нежный трехуровневый свадебный
+													торт в
+													цвете
+													айвори.
+												</p>
+												<div class="orders__buy">
+													<span class="orders__price">2150 руб.</span>
+													<button class="orders__buy-btn">Заказать</button>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="tabs__body">
+									<ul class="orders__list">
+										<li class="orders__item">
+											<picture><source srcset="img/orders-1.webp"type="image/webp"><img src="img/orders-1.jpg" alt="image"></picture>
+											<div class="orders__item-data">
+												<h3 class="orders__item-title">Торт Брауни</h3>
+												<p class="orders__item-descr">
+													Сдержанный, но в то же время очень нежный трехуровневый свадебный
+													торт в
+													цвете
+													айвори.
+												</p>
+												<div class="orders__buy">
+													<span class="orders__price">2150 руб.</span>
+													<button class="orders__buy-btn">Заказать</button>
+												</div>
+											</div>
+										</li>
+										<li class="orders__item">
+											<picture><source srcset="img/orders-2.webp"type="image/webp"><img src="img/orders-2.jpg" alt="image"></picture>
+											<div class="orders__item-data">
+												<h3 class="orders__item-title">Торт Брауни</h3>
+												<p class="orders__item-descr">
+													Сдержанный, но в то же время очень нежный трехуровневый свадебный
+													торт в
+													цвете
+													айвори.
+												</p>
+												<div class="orders__buy">
+													<span class="orders__price">2150 руб.</span>
+													<button class="orders__buy-btn">Заказать</button>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+				</div>
+			</section>
+			<section class="offer" id="offer">
+				<div class="offer__container">
+					<div class="offer__data">
+						<h1 class="offer__title">Предложение месяца!</h1>
+						<p class="offer__subtitle">При заказе торта с индивидуальным оформлении скидка 20%</p>
+						<button class="offer__button">Сделать заказ</button>
+					</div>
+				</div>
+				<div class="offer__berry-1" data-prlx-mouse data-prlx-cx="10" data-prlx-cy="10">
+					<picture><source srcset="img/berry-1.webp"type="image/webp"><img src="img/berry-1.png" alt=""></picture>
+				</div>
+				<div class="offer__berry-2" data-prlx-mouse data-prlx-cx="10" data-prlx-cy="10">
+					<picture><source srcset="img/berry-2.webp"type="image/webp"><img src="img/berry-2.png" alt=""></picture>
+				</div>
+				<div class="offer__berry-3" data-prlx-mouse data-prlx-cx="10" data-prlx-cy="10">
+					<picture><source srcset="img/berry-3.webp"type="image/webp"><img src="img/berry-3.png" alt=""></picture>
+				</div>
+				<div class="offer__berry-4" data-prlx-mouse data-prlx-cx="10" data-prlx-cy="10">
+					<picture><source srcset="img/berry-4.webp"type="image/webp"><img src="img/berry-4.png" alt=""></picture>
+				</div>
+				<div class="offer__berry-5" data-prlx-mouse data-prlx-cx="10" data-prlx-cy="10">
+					<picture><source srcset="img/berry-5.webp"type="image/webp"><img src="img/berry-5.png" alt=""></picture>
+				</div>
+			</section>
+			<section class="parallax">
+				<div class="parallax__container">
+					<div class="parallax__body">
+						<div class="parallax__image">
+							<picture>
+								<source srcset="img/big-cake-xs.png" media="(max-width: 1200px)">
+								<source srcset="img/big-cake.png" media="(min-width: 1200px)">
+								<img src="img/big-cake.png" alt="cake">
+							</picture>
+						</div>
+						<h2 class="parallax__title">Подберём торт</h2>
+						<span class="parallax__subtitle">Для вашего праздника</span>
+						<form action="" method="post" class="parallax__forms parallax-forms">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="parallax__forms-input">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Ваше телефон" class="parallax__forms-input">
+							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Ваш email" class="parallax__forms-input">
+							<button type="submit" class="parallax__forms-button">Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="special-offers" id="special-offers">
+				<div class="special-offers__container">
+					<div class="special-offers__intro">
+						<picture><source srcset="img/cake.webp"type="image/webp"><img src="img/cake.png" alt="image"></picture>
+						<h2 class="special-offers__title _section-title">Специальные предложения</h2>
+					</div>
+					<div class="special-offers__cards">
+						<div class="special-offers__card offer-card">
+							<h3 class="offer-card__title">Торт на свадьбу "Ivory"</h3>
+							<p class="offer-card__descr">Сдержанный и очень нежный трехуровневый свадебный торт в цвете
+								айвори.</p>
+							<span class="offer-card__price">570 руб.</span>
+							<button class="offer-card__button">Заказать</button>
+						</div>
+						<div class="special-offers__card offer-card offer-card__main">
+							<h3 class="offer-card__title">Торт на свадьбу "Ivory"</h3>
+							<p class="offer-card__descr">Сдержанный и очень нежный трехуровневый свадебный торт в цвете
+								айвори.</p>
+							<span class="offer-card__price">570 руб.</span>
+							<button class="offer-card__button">Заказать</button>
+						</div>
+						<div class="special-offers__card offer-card">
+							<h3 class="offer-card__title">Торт на свадьбу "Ivory"</h3>
+							<p class="offer-card__descr">Сдержанный и очень нежный трехуровневый свадебный торт в цвете
+								айвори.</p>
+							<span class="offer-card__price">570 руб.</span>
+							<button class="offer-card__button">Заказать</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="actions" id="actions">
+				<div class="actions__container">
+					<div class="actions__data">
+						<h2 class="actions__title">Акция этой недели!</h2>
+						<p class="actions__subtitle">При заказе торта с индивидуальным оформлении</p>
+						<span class="actions__sale">СКИДКА 20%</span>
+						<button class="actions__button">Сделать заказ</button>
+
+						<div class="actions__timer timer">
+							<span class="timer__title">До конца акции осталось: </span>
+							<div class="timer__items">
+								<div class="timer__item timer__days">00</div>
+								<div class="timer__item timer__hours">00</div>
+								<div class="timer__item timer__minutes">00</div>
+								<div class="timer__item timer__seconds">00</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="actions__media">
+						<picture><source srcset="img/actions-cake.webp"type="image/webp"><img src="img/actions-cake.png" alt="image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="reviews" id="reviews">
+				<div class="reviews__container">
+					<div class="reviews__intro">
+						<picture><source srcset="img/white-cake.webp"type="image/webp"><img src="img/white-cake.png" alt="image"></picture>
+						<h2 class="reviews__title _section-title">Отзывы наших клиентов</h2>
+					</div>
+					<div class="reviews__slider">
+						<div class="reviews__swiper">
+							<div class="reviews__slide">
+								<h4 class="reviews__name">Елена</h4>
+								<p class="reviews__text">
+									Спасибо большое за торт! Сын был в восторге,а гости не могли
+									оторваться,настолько нежный и вкусный был торт. И даже наш папа совсем не
+									сладкоежка слушал два кусочка.
+								</p>
+							</div>
+							<div class="reviews__slide">
+								<h4 class="reviews__name">Максим</h4>
+								<p class="reviews__text">
+									Спасибо!!! Не первый раз заказываю у вас торт. Превосходит все ожидания!!!
+								</p>
+							</div>
+							<div class="reviews__slide">
+								<h4 class="reviews__name">Наталья</h4>
+								<p class="reviews__text">
+									Брали торт на юбилей, начинка день-ночь. Очень вкусненький, не приторный.
+									Спасибо!
+								</p>
+							</div>
+						</div>
+						<div class="slider-quality__pagging reviews__bullets"></div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts" id="contacts">
+				<div class="contacts__container">
+					<div class="contacts__intro">
+						<picture><source srcset="img/cake.webp"type="image/webp"><img src="img/cake.png" alt="image"></picture>
+						<h2 class="contacts__title _section-title">Контакты</h2>
+					</div>
+					<div class="contacts__inner">
+						<div class="contacts__data">
+							<h3 class="contacts__data-title">Где мы?</h3>
+							<p class="contacts__data-descr">Необыкновенные, эксклюзивные, невероятные и очень вкусные
+								тортики на заказ для любого события и повода. Работы мастера реально удивляют, точность
+								с которой он воссоздаёт трехмерные фигуры, текстуры и градиенты, поражает.</p>
+							<ul class="contacts__list">
+								<li class="contacts__item contacts__item-link">
+									<i class="fa-solid fa-phone contacts__icon"></i>
+									<a href="tel:+79521245554">+7 (952) 124-55-54</a>
+								</li>
+								<li class="contacts__item">
+									<i class="fa-solid fa-location-dot contacts__icon"></i>
+									г. Калининград, ул.Краковский бульвар, д.32, кв.11
+								</li>
+								<li class="contacts__item contacts__item-link">
+									<i class="fa-solid fa-envelope contacts__icon"></i>
+									<a href="mailto:hevnxv21@gmai.com">hevnxv21@gmai.com</a>
+								</li>
+								<li class="contacts__item">
+									<i class="fa-solid fa-clock contacts__icon"></i>
+									Пн-Пт: с 9.00 до 18.00
+								</li>
+							</ul>
+							<div class="contacts__socials">
+								<h3 class="contacts__data-title">СОЦИАЛЬНЫЕ СЕТИ</h3>
+								<ul class="contacts__social-list">
+									<li class="contacts__social-icon">
+										<a href="#" target="_blank"><i class="fa-brands fa-vk"></i></a>
+									</li>
+									<li class="contacts__social-icon">
+										<a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+									</li>
+									<li class="contacts__social-icon">
+										<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="contacts__form">
+							<h3 class="contacts__form-title contacts__data-title">СВЯЗАТЬСЯ СО МНОЙ</h3>
+							<div class="contacts__form-inputs form-inputs">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя*" class="input form-inputs__input">
+								<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email*" class="input form-inputs__input">
+							</div>
+							<div class="contacts__form-message">
+								<textarea autocomplete="off" name="form[]" placeholder="Сообщение*" data-error="Ошибка" class="input form-inputs__input form-inputs__textarea"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="https://kit.fontawesome.com/6051da2933.js?_v=20220103192231" crossorigin="anonymous"></script>
+	<script src="js/app.min.js?_v=20220103192231"></script>
+
+
+</body>
+
+</html>
